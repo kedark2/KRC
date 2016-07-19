@@ -1,0 +1,20 @@
+body { 
+  color : #5e4b80; 
+  background : #5e4b80; 
+  font-family : "Zapfino";
+  font-size : 12pt; 
+}
+
+a { 
+  text-decoration : underline; 
+  color : #0000ff; 
+}
+
+a:link:after, a:visited:after {
+content: " (" attr(href) ") ";
+font-size: 70%;
+}
+
+nav, sidebar, footer, header, aside { 
+  display : none; 
+}
